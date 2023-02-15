@@ -1,7 +1,7 @@
 def maximum(ls):
-    min = 0
-    
-    
+
+    min = ls[0]
+
     for number in ls:
         if number < min:
             min = number
