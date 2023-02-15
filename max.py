@@ -1,2 +1,6 @@
 def maximum(ls):
-    return max(ls)
+    min = 0
+    for number in ls:
+        if number < min:
+            min = number
+    return min
